@@ -1,0 +1,20 @@
+.user {
+    display: inline-block;
+    border: groove gray 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 10px 20px;
+    width: 270px;
+}
+
+
+.user button {
+    margin: 10px;
+    color: black;
+    position: absolute;
+    top: 110%;
+    right: 4%;
+}
+

@@ -1,0 +1,102 @@
+{
+   "database": [
+      {
+         "id": 1,
+         "name": "Death Note",
+         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1e27362d-3dc6-4866-8ce6-d4c3bbde78de/d1m12i1-81948040-6ad6-4746-8adb-7c3eb6d68f7c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFlMjczNjJkLTNkYzYtNDg2Ni04Y2U2LWQ0YzNiYmRlNzhkZVwvZDFtMTJpMS04MTk0ODA0MC02YWQ2LTQ3NDYtOGFkYi03YzNlYjZkNjhmN2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.W-JeKJSK9AroOHKgiK0GfSL8KQejyBTJASZvJDjnJzU",
+         "description": "Light Yagami est un lycéen surdoué qui juge le monde actuel criminel, pourri et corrompu. Sa vie change du tout au tout le jour où il ramasse par hasard un mystérieux cahier intitulé « Death Note ».",
+         "price": 10
+      },
+      {
+         "id": 2,
+         "name": "Naruto Shippuden",
+         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7cdbdbac-2807-412c-b0dc-5533960c9c2b/d84geek-ed999ff2-12a3-4afc-8c4e-63ade5f65557.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdjZGJkYmFjLTI4MDctNDEyYy1iMGRjLTU1MzM5NjBjOWMyYlwvZDg0Z2Vlay1lZDk5OWZmMi0xMmEzLTRhZmMtOGM0ZS02M2FkZTVmNjU1NTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9_RzuT9b6ATnaXSvu2rg87onthSyowvDyuvcuwP-F8g",
+         "description": "L'histoire commence pendant l'adolescence de Naruto, vers ses douze ans. Orphelin cancre et grand farceur, il fait toutes les bêtises possibles pour se faire remarquer. Son rêve : devenir le meilleur Hokage afin d'être reconnu par les habitants de son village.",
+         "price": 15
+      },
+      {
+         "id": 3,
+         "name": "Tokyo Ghoul",
+         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2eaabab2-636c-4344-96d7-34fedb86918c/dad8kut-26b6018a-692c-4545-acea-5dbc64deb9ef.jpg/v1/fill/w_1024,h_1328,q_75,strp/unravel_by_sleepysoren_dad8kut-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTMyOCIsInBhdGgiOiJcL2ZcLzJlYWFiYWIyLTYzNmMtNDM0NC05NmQ3LTM0ZmVkYjg2OTE4Y1wvZGFkOGt1dC0yNmI2MDE4YS02OTJjLTQ1NDUtYWNlYS01ZGJjNjRkZWI5ZWYuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.mZPAr9a5PefPKFpZ5qE7ZD5UzmQJK2HI0hzti8n09S0",
+         "description": "Dans la ville de Tokyo, des créatures nommées goules sont apparues et se nourrissent de chair humaine pour survivre. Un jour, Ken Kaneki, jeune étudiant, se fait attaquer par l'une d'entre elles et subit une grave blessure. Pour rester en vie, il reçoit une greffe de la goule qui l'a attaqué et devient un hybride, mi-humain mi-goule borgne artificielle.",
+         "price": 25
+      },
+      {
+         "id": 4,
+         "name": "Attack on Titans",
+         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8ccc87e3-9294-40eb-a40a-b60ca83b536d/d917sq8-be129633-0e85-482c-b5f7-e8489677e85a.jpg/v1/fill/w_600,h_900,q_75,strp/attack_on_titan_by_fabledcreative_d917sq8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvOGNjYzg3ZTMtOTI5NC00MGViLWE0MGEtYjYwY2E4M2I1MzZkXC9kOTE3c3E4LWJlMTI5NjMzLTBlODUtNDgyYy1iNWY3LWU4NDg5Njc3ZTg1YS5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.HEJPeJhAwdJTdyt45BhUPEP7aLk3QV44fBmQ6KaekwM",
+         "description": "Plus de cent ans avant le début de l’histoire, des créatures géantes humanoïdes mangeuses d'hommes nommées Titans sont subitement apparues et ont presque anéanti l’humanité. Ces créatures géantes font habituellement entre trois et quinze mètres de haut, avec quelques exceptions comme le Titan colossal qui en mesure soixante1.",
+         "price": 23
+      },
+      {
+         "id": 5,
+         "name": "Vandread",
+         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5c4d376b-3313-4249-85b7-33a384164891/d1m8ht8-d35e01d0-0228-4bc6-a62c-59538aaeaa0b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVjNGQzNzZiLTMzMTMtNDI0OS04NWI3LTMzYTM4NDE2NDg5MVwvZDFtOGh0OC1kMzVlMDFkMC0wMjI4LTRiYzYtYTYyYy01OTUzOGFhZWFhMGIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kQbIKC297MyRQvR8TmBM5CwqAXLHcOKURLxmjyCTEm0",
+         "description": "La planète Taraak, peuplée exclusivement d'hommes, ainsi que la planète Mejeer, exclusivement de femmes, se font la guerre depuis des années.Lors d'une présentation militaire des forces spatiales de Taraak, leur nouveau vaisseau de combat construit à partir de celui de la colonisation est attaqué et annexé par des femmes pirates issues de Mejeer : ne voulant pas perdre la face, le commandant des forces taraakiennes préfère détruire à distance son vaisseau avec les intruses à bord.",
+         "price": 14
+      },
+      {
+         "id": 6,
+         "name": "Overman King Gainers",
+         "image": "https://th.bing.com/th/id/OIP.l9r0UQP8KbXEahHAEronzwHaKX?w=186&h=260&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+         "description": "Perdus au milieu de la Sibérie, les habitants de Dompolis souffrent de la pénurie et dépendent entièrement de la compagnie des chemins de fer qui les ravitaille au prix fort. De nombreuses voix s'élèvent contre ces abus et beaucoup veulent quitter la région pour s'établir dans une contrée moins pauvre. Cependant, les hommes au pouvoir empêchent les gens de quitter la ville et font emprisonner tout sympathisant de l'Exode.",
+         "price": 7
+      },
+      {
+         "id": 7,
+         "name": "Albator",
+         "image": "https://th.bing.com/th/id/R.92ebdc37e5771c520e092ea92b72e62a?rik=0ldjtbaF%2feKwPA&riu=http%3a%2f%2fwww.notrecinema.com%2fimages%2fcache%2falbator-84--poster_259992_45176.jpg&ehk=br%2fhDG7dhDSbLLKY4BCWGVECTaTPqBDAD06RXwnsENI%3d&risl=&pid=ImgRaw&r=0",
+         "description": "En 29774, les Terriens nagent dans l’opulence. Ils ont envoyé des robots qui exploitent les ressources d'autres planètes. Tout ce qui est récolté est distribué gratuitement à la population. Par le truchement de l'abrutisseur mondio-visuel, les seigneurs bloquent les pensées d'un peuple asservi. Dénué de pouvoir réflexif, celui-ci se croit heureux.",
+         "price": 11
+      },
+      {
+         "id": 8,
+         "name": "Berserk",
+         "image": "https://th.bing.com/th/id/R.59fbf638f2b54004c34de10efe611091?rik=fcpKsvnIOuMRRg&riu=http%3a%2f%2fi.imgur.com%2fk0uZ2GQ.jpg%3f1&ehk=8RFx3OUgSMGkOXJoOTChrc9ZU%2bVnqs2%2fG%2bp8ZOwAUdU%3d&risl=&pid=ImgRaw&r=0",
+         "description": "Berserk raconte l'histoire de la rencontre de Guts et de Griffith, chef de la Troupe du Faucon, une bande de mercenaires à la solde du royaume de Midland. De cette rencontre naîtra une amitié ambiguë, mais néanmoins efficiente : la présence de Guts, guerrier à l'épée démesurée, se révélera vite indispensable à l'ambition du jeune Griffith, bretteur et tacticien hors pair.",
+         "price": 24
+      },
+      {
+         "id": 9,
+         "name": "Dragon Ball Z",
+         "image": "https://th.bing.com/th/id/OIP.gdDwZTvd64ZyK0_-wJzaVAHaLq?w=186&h=293&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+         "description": "Dragon Ball Z se déroule cinq ans après le mariage de Son Goku et de Chichi, désormais parents de Son Gohan3. Raditz, un mystérieux guerrier extraterrestre, qui s'avère être le frère de Son Goku, arrive sur Terre pour retrouver ce dernier. Ce dernier apprend qu'il vient d'une planète de guerriers redoutables dont il ne reste plus que quatre survivants, et qu'il avait été envoyé sur la planète Terre dans le but de la conquérir une chute alors qu'il était enfant lui aurait fait perdre la mémoire.",
+         "price": 12
+      },
+      {
+         "id": 10,
+         "name": "Wolf's Rain",
+         "image": "https://th.bing.com/th/id/OIP.Tn5on17JBiXXC32wR5U5xQAAAA?w=186&h=260&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+         "description": "Dans le futur, quelque part sur une Terre en période glaciaire où seules subsistent les villes, les humains tentent de survivre. Alors que les loups se sont éteints depuis deux cents ans, une légende persiste à dire que le jour où ils verront le chemin qui mène au Paradis, ce sera la fin du monde.",
+         "price": 12
+      },
+      {
+         "id": 11,
+         "name": "Accel World",
+         "image": "https://th.bing.com/th/id/OIP.pvIByXesQAiCYtbpT9wJbQHaLH?w=186&h=279&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+         "description": "En 2046, la technologie a fait naître le Neuro-Linker dernière évolution du Nerve-Gear apparaissant dans Sword Art Online, light novel écrit par le même auteur, un système qui permet à l'utilisateur de manipuler ses cinq sens pour accéder à une réalité augmentée et rechercher des informations sur Internet, mais qui permet aussi d'entrer dans un univers virtuel sous la forme d'un avatar choisi.",
+         "price": 4
+      },
+      {
+         "id": 12,
+         "name": "Sword Art Online",
+         "image": "https://th.bing.com/th/id/OIP.DUNGLxddUosP-5gmVanc8QHaKL?w=186&h=256&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+         "description": "Sword Art Online est un jeu de rôle en ligne massivement multijoueur en réalité virtuelle VRMMORPG, sorti en 2022. Avec le NerveGear, un casque de réalité virtuelle stimulant les cinq sens de l'utilisateur, les joueurs peuvent contrôler leur personnage dans le jeu avec leur esprit. Le jeu est bêta-testé par 1 000 joueurs puis est enfin commercialisé.",
+         "price": 23
+      },
+      {
+         "id": 13,
+         "name": "Detective Conan",
+         "image": "https://th.bing.com/th/id/OIP.slmunl7V2zjL85QQlXKs8gHaLZ?w=186&h=287&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+         "description": "Shinichi Kudo est un jeune détective lycéen âgé de 17 ans fréquemment associé avec la police. Lors d'une visite dans un parc d'attractions en compagnie de son amie d'enfance, Ran Mouri, il surprend discrètement une conversation privée entre deux individus - Gin et Vodka - appartenant à une mystérieuse organisation criminelle dont chaque membre est habillé en noir.",
+         "price": 12
+      },
+      {
+         "id": 14,
+         "name": "Sherlock Holmes",
+         "image": "https://th.bing.com/th/id/OIP.vZY7gi4V9NnRhw3KwCMmEQHaKg?pid=ImgDet&rs=1",
+         "description": "Le détective privé Sherlock Holmes et son acolyte le docteur Watson se voient confier des enquêtes pour déjouer les plans du professeur Moriarty. Les personnages sont tous des canidés anthropomorphes.",
+         "price": 7
+      }
+   ]
+}
