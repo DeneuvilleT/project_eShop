@@ -15,15 +15,16 @@ export function Cards() {
     }, []);
 
     return (
-        <>
+        <article className={styles.cards}>
             {
                 myResults.map(item => {
                     return (
                         <React.Fragment key={item.id}>
                             <div className={styles.cards}>
                                 <h3>{item.name}</h3>
-                                <img src={item.image} />
                                 
+                                <img src={item.image} />
+
                                 <details style={{ textDecoration: 'underline', cursor: 'pointer' }} >{item.description}</details>
 
                                 <p style={{ fontWeight: 'bolder' }}>Prix : {item.price} €</p>
@@ -34,6 +35,6 @@ export function Cards() {
                     );
                 })
             }
-        </>
+        </article>
     );
 };

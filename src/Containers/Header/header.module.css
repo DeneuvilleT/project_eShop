@@ -1,0 +1,19 @@
+.header {
+   background-image: url(../../img/ban.webp);
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-position-y: 60%;
+   background-position-x: 45%;
+   height: 300px;
+   color: white;
+}
+
+.header h1 {
+   font-size: 5em;
+   text-shadow: 4px 4px 4px black;
+}
+
+.header h2 {
+   text-shadow: 4px 4px 4px black;
+}
+

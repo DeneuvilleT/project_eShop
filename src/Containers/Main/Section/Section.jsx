@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../../css/App.css'
-import { Article } from '../Article/Article';
+import { Cards } from '../../../Components/Cards/Cards';
+
 
 
 export function Section() {
@@ -9,7 +9,7 @@ export function Section() {
 
         <>
             <section>
-                <Article/>
+                <Cards/>
             </section>
         </>
 

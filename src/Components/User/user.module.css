@@ -1,20 +1,20 @@
 .user {
-    display: inline-block;
-    border: groove gray 2px;
+    display: flexbox;
+    justify-content: center;
     position: absolute;
     top: 0;
     right: 0;
     color: white;
     padding: 10px 20px;
-    width: 270px;
+    width: 20%;
+    text-align: center;
 }
 
 
 .user button {
-    margin: 10px;
+    display: flexbox;
     color: black;
-    position: absolute;
-    top: 110%;
-    right: 4%;
+    padding:  5 !important;
+    width: 60%;
 }
 

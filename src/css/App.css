@@ -2,38 +2,11 @@ body {
   background-color: rgb(250, 241, 229);
 }
 
-header {
-  background-image: url(../img/ban.webp);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position-y: 60%;
-  background-position-x: 45%;
-  height: 300px;
-}
-
-h1 {
-  font-size: 5em;
-  text-shadow: 4px 4px 4px black;
-}
-
-h2 {
-  text-shadow: 4px 4px 4px black;
-}
-
-hr,
-h1,
-h2,
-#myProfile h3 {
-  margin: 0;
-  color: white;
-}
-
-#products {
+article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 150px auto;
+  margin: 80px auto;
   width: 90%;
 }
-

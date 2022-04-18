@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from "react";
 import { Button } from "../Button";
 import styles from "../User/user.module.css";
 import { GlobalContext } from "../../Context/GlobalContext";
-import { Bin } from "../Bin/Bin";
 
 export function Users() {
 
@@ -40,8 +39,7 @@ export function Users() {
                 }
             </span>
 
-            <Bin />
-
+            
             <Button classname={styles.user} valeur={!isConnected ? "Connexion" : "Deconnexion"} fonction={(e) => setConnect(!isConnected ? true : false)} />
 
         </div>
