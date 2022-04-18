@@ -1,8 +1,9 @@
-.cards div{
+.cards div {
     background-color: white;
-    width: 33.3%;
+    min-width: 300px;
+    max-width: 33.3%;
     margin: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
         0 14px 20px rgba(0, 0, 0, 0.24);
     box-sizing: border-box;
@@ -15,6 +16,8 @@
     width: 230px;
 }
 
-.cards :nth-child(*){
-    margin: 5px;
+
+article div details,
+article div p, article div h3{
+    margin: 10px;
 }
