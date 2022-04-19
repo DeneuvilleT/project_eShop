@@ -12,8 +12,6 @@ export function Nav() {
                     <li><Link to={'/'}>Acceuil</Link></li>
                     <li><Link to={'/products'}>Produits</Link></li>
                     <li><Link to={'/binDisplay'}>Panier</Link></li>
-                    {/* <li><Link to={'/'}>A propos</Link></li>
-                    <li><Link to={'/'}>Compte</Link></li> */}
                 </ul>
             </nav>
         </>

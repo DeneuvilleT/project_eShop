@@ -1,14 +1,14 @@
-import './css/App.css'
+import React from 'react';
+import GlobalContextProvider from './Context/GlobalContext';
 import { Header } from './Containers/Header/Header';
 import { Main } from './Containers/Main/Main';
 import { Nav } from './Containers/Nav/Nav';
 import { Footer } from './Containers/Footer/Footer';
 import { Users } from './Components/User/User';
-import React from 'react';
-import GlobalContextProvider from './Context/GlobalContext';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { Cards } from './Components/Cards/Cards';
 import { BinDisplay } from './Components/BinDisplay/BinDisplay';
+import './css/App.css'
 
 export default
   function App() {

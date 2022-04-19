@@ -1,14 +1,27 @@
-import React from 'react';
-
+import React, { useContext } from 'react';
+import { GlobalContext } from '../../Context/GlobalContext';
 
 export function BinDisplay() {
 
-  return (
-     <>
-        <div style={{backgroundColor : 'wheat', width : '500px', height : '300px'}}>
-           Votre Panier
-        </div>
-     </>
-  )
-}
+   const { bin } = useContext(GlobalContext);
+
+   return (
+      <>
+         <div>
+            {
+               bin.length && bin.map((item) => {
+                  if (item === undefined) {
+                     item = { id: 0, name: '', description: '', image: '', price: 0 };
+                  };
+                  return (
+                     <div key={item.id}>
+                        <h4>{item.name}</h4>
+                     </div>
+                  );
+               })
+            }
+         </div>
+      </>
+   );
+};
 

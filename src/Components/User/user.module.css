@@ -12,18 +12,20 @@
     background-color: rgba(2, 2, 2, 0.63);
 }
 
-
 .user button {
     display: flexbox;
     position: relative;
-    padding:  5 !important;
+    padding: 5 !important;
     width: 60%;
     height: 40px;
     min-width: 100px;
     margin: 10px auto;
 }
 
-.user h3{
+.user a,
+.user h3,
+.user p {
     margin: 10px auto;
+    color: white;
+    text-decoration-color: white;
 }
-

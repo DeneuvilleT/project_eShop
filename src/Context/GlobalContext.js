@@ -10,13 +10,8 @@ const GlobalContextProvider = (props) => {
     const [lastName, setLastName] = useState("Deneuville");
     const [nbrProducts, setProducts] = useState(null);
     const [myResults, setResults] = useState([]);
-    
-    const addBuy = (e) => {
-        
-        let realNbr = Number(e.target.id);
-        setProducts(realNbr);
-        e.target.disabled = true;
-    };
+    const [bin, setBin] = useState([]);
+
 
     const reqAjax = () => {
         fetchApi().then(res => {
@@ -27,9 +22,17 @@ const GlobalContextProvider = (props) => {
             };
         });
     };
-    
+
+
+    const addBuy = (e) => {
+        reqAjax();
+        let realNbr = Number(e.target.id);
+        setProducts(realNbr);
+        e.target.disabled = true;
+    };
+
     return (
-        <GlobalContext.Provider value={{ theme, name, lastName, addBuy, nbrProducts, myResults, reqAjax }}>
+        <GlobalContext.Provider value={{ theme, name, lastName, addBuy, nbrProducts, myResults, reqAjax, bin, setBin }}>
             {props.children}
         </GlobalContext.Provider>
     );

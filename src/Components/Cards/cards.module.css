@@ -16,8 +16,8 @@
     width: 230px;
 }
 
-
 article div details,
-article div p, article div h3{
+article div p,
+article div h3 {
     margin: 10px;
 }
