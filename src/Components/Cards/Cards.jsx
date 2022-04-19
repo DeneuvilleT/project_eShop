@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from 'react';
 import styles from '../Cards/cards.module.css';
-import { Button } from '../Button';
+import { Button } from '../Button/Button';
 import { GlobalContext } from '../../Context/GlobalContext';
 
 
@@ -9,6 +9,7 @@ export function Cards() {
     const { addBuy } = useContext(GlobalContext);
     const { myResults } = useContext(GlobalContext);
     const { reqAjax } = useContext(GlobalContext);
+
 
     useEffect(() => {
         reqAjax()
@@ -29,7 +30,7 @@ export function Cards() {
 
                                 <p style={{ fontWeight: 'bolder' }}>Prix : {item.price} €</p>
 
-                                <Button idProducts={item.id} classname="buy_btn" valeur="Acheter" fonction={addBuy} />
+                                <Button idProducts={item.id} valeur="Acheter" fonction={addBuy} />
                             </div>
                         </React.Fragment>
                     );

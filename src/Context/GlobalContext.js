@@ -6,8 +6,10 @@ export const GlobalContext = createContext();
 const GlobalContextProvider = (props) => {
 
     const [theme, setTheme] = useState(false);
+    
     const [name, setName] = useState("Thomas");
     const [lastName, setLastName] = useState("Deneuville");
+
     const [nbrProducts, setProducts] = useState(null);
     const [myResults, setResults] = useState([]);
     const [bin, setBin] = useState([]);
@@ -26,13 +28,11 @@ const GlobalContextProvider = (props) => {
 
     const addBuy = (e) => {
         reqAjax();
-        let realNbr = Number(e.target.id);
-        setProducts(realNbr);
         e.target.disabled = true;
     };
 
     return (
-        <GlobalContext.Provider value={{ theme, name, lastName, addBuy, nbrProducts, myResults, reqAjax, bin, setBin }}>
+        <GlobalContext.Provider value={{ theme, name, lastName, addBuy, nbrProducts, myResults, reqAjax, bin, setBin}}>
             {props.children}
         </GlobalContext.Provider>
     );

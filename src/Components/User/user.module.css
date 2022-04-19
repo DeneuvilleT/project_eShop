@@ -13,13 +13,12 @@
 }
 
 .user button {
-    display: flexbox;
+    display: block;
     position: relative;
-    padding: 5 !important;
-    width: 60%;
+    width: 35%;
     height: 40px;
     min-width: 100px;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 
 .user a,

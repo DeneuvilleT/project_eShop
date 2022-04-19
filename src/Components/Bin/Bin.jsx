@@ -16,12 +16,12 @@ export function Bin() {
 
 
      const configBin = () => {
-          setBin(bin => [...bin, myResults[(nbrProducts - 1)]]);
+          !nbrProducts ? console.log('Le panier est vide') : setBin(bin => [...bin, myResults[(nbrProducts)-1]]);
      };
 
      return (
           <>
-               <Link to={"/binDisplay"}>Votre panier contient {bin.length - 1} articles</Link>
+               <Link to={"/binDisplay"}>Votre panier contient {bin.length} articles</Link>
           </>
      );
 };
