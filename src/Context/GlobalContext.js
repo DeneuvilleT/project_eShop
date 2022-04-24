@@ -28,6 +28,10 @@ const GlobalContextProvider = (props) => {
 
     const addBuy = (e) => {
         reqAjax();
+        setProducts(Number(e.target.id))
+        e.target.removeAttribute('class');
+        e.target.setAttribute('class', 'validate');
+        e.target.innerHTML = '&#x1F5F8;'
         e.target.disabled = true;
     };
 

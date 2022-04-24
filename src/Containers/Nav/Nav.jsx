@@ -9,9 +9,9 @@ export function Nav() {
         <>
             <nav className={styles.nav}>
                 <ul>
-                    <li><Link to={'/'}>Acceuil</Link></li>
-                    <li><Link to={'/products'}>Produits</Link></li>
-                    <li><Link to={'/binDisplay'}>Panier</Link></li>
+                    <li><Link to={'/'}><i style={{paddingRight : '10px'}} className="fa-solid fa-house"></i>Accueil</Link></li>
+                    <li><Link to={'/products'}><i style={{ paddingRight: '10px' }} className="fa-solid fa-book-open"></i>Produits</Link></li>
+                    <li><Link to={'/binDisplay'}><i style={{ paddingRight: '10px' }} className="fa-solid fa-bag-shopping"></i>Panier</Link></li>
                 </ul>
             </nav>
         </>

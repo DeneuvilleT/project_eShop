@@ -1,8 +1,9 @@
 .nav {
-   background-color: rgb(255, 255, 255);
+   background-color: rgba(255, 255, 255, 0.479);
    box-sizing: border-box;
-   width: 100%;
+   width: 90%;
    text-align: center;
+   margin: auto;
 }
 
 .nav ul li {

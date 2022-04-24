@@ -1,0 +1,32 @@
+.footer {
+   background-color: rgba(0, 0, 0, 0.267);
+   width: 90%;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   margin-top: 300px;
+   position: relative;
+   flex-direction: row;
+   color: white;
+}
+
+.footer ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer ul li {
+   display: inline-block;
+   margin: auto 10rem;
+   font-size: 2rem;
+}
+
+.footer a:link {
+   color: white;
+}
+
+.footer a li:hover{
+   text-decoration: underline;
+}

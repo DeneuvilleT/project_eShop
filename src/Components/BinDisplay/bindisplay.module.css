@@ -1,16 +1,29 @@
-.bin {
-
+.bindisplay {
    background-color: white;
    width: 95%;
-   min-height: 500px;
    text-align: center;
    margin: auto;
+   height: auto;
    padding: 50px 10px;
    box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
       0 14px 20px rgba(0, 0, 0, 0.24);
 }
 
-.bin li {
+.bindisplay div {
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+   justify-content: space-evenly;
+   height: 25px;
+}
+
+.bindisplay h4 {
+   display: inline-block;
+   margin: 10px;
+   color: rgb(155, 155, 155);
+}
+
+.bindisplay li {
    display: flex;
    flex-wrap: wrap;
    flex-direction: row;
@@ -19,24 +32,39 @@
    margin: 20px 40px;
 }
 
-.bin p {
+.bindisplay p {
    width: 120px;
    font-weight: bold;
 }
 
-.bin img {
-
+.bindisplay img {
+   box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
+      0 14px 20px rgba(0, 0, 0, 0.24);
    width: 80px;
    height: 120px;
 }
 
-.bin button {
-   width: 10%;
-   height: 40px;
-   min-width: 100px;
-   margin: 0;
+.bindisplay button {
+   width: 50px !important;
+   min-width: 50px;
+   min-height: 50px;
+   background-color: rgba(0, 0, 0, 0);
+   border: none;
 }
 
-.bin hr {
+.bindisplay li svg {
+   fill: rgb(155, 155, 155);
+   width: 20rem;
+}
+
+.bindisplay li h2 {
+   font-style: italic;
+   color: rgb(155, 155, 155);
+   font-size: 4rem;
+   margin: 50px auto;
+}
+
+.bindisplay hr {
    margin: 10px;
+   width: 80%;
 }

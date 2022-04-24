@@ -19,7 +19,6 @@ export default
         <Header />
         <Users />
         <Nav />
-        <Footer />
 
         <Routes>
           <Route path='/' element={<Main />} ></Route>
@@ -28,6 +27,7 @@ export default
           <Route path='/binDisplay' element={<BinDisplay />} ></Route>
         </Routes>
 
+        <Footer />
       </GlobalContextProvider>
     </div>
   );
